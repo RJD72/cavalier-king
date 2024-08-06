@@ -1,0 +1,11 @@
+<div class="bg-ivory p-4">
+  <h1 class="text-center text-6xl font-bold my-10 text-burgundy">Puppies</h1>
+  <div class="grid sm:grid-cols-2 gap-8 max-w-7xl mx-auto">
+    <div *ngFor="let puppy of puppies" class="flex flex-col items-center">
+      <img src="{{ puppy.imageSrc }}" alt="" class="w-full h-auto" />
+      <p class="mt-2">{{ puppy.gender }}</p>
+      <p class="mt-2">{{ puppy.weight }}</p>
+      <p class="mt-2">{{ puppy.dateBorn }}</p>
+    </div>
+  </div>
+</div>
