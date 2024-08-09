@@ -4,4 +4,5 @@ export interface Dogs {
   weight: string;
   dateBorn: string;
   imageSrc: string;
+  isSold: boolean;
 }
