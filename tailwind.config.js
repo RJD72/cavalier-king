@@ -10,6 +10,7 @@ module.exports = {
         "royal-blue": "#4169e1",
         gold: "#ffd700",
         burgundy: "#800020",
+        auburn: "#a52a2a",
         ivory: "#fffff0",
         charcoal: "#36454f",
       },

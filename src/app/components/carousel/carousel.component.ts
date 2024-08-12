@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { DogsService } from '../../services/dogs.service';
 import { Dogs } from '../../model/dogs';
-import { NgFor } from '@angular/common';
+import { NgFor, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-carousel',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, NgIf],
   templateUrl: './carousel.component.html',
   styleUrl: './carousel.component.css',
 })
